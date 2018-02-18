@@ -1,0 +1,35 @@
+What is code-sample?
+---------------
+code-sample is a document indexing and querying system using
+an EventBus implementation.
+
+Web: http://github.com/pn2200/code-sample/
+
+License
+-------
+code-sample is distributed under the GNU General Public License (GPL), as
+described in the 'COPYING' file.
+
+Building from source
+--------------------
+use autoreconf to invoke the various parts of the GNU Build system:
+    autoreconf -i
+
+Then build:
+    ./configure
+    make
+
+Run all tests:
+    make check
+
+Usage
+-----
+After starting at a command prompt, use the following commands
+add filename
+    Add a file to the system.
+query word
+    Return the filenames of files that contain word.
+remove filename
+    Remove a file from the system.
+quit
+    Quit the program.
