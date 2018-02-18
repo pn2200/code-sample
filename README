@@ -1,5 +1,5 @@
 What is code-sample?
----------------
+--------------------
 code-sample is a document indexing and querying system using
 an EventBus implementation.
 
@@ -12,7 +12,7 @@ described in the 'COPYING' file.
 
 Building from source
 --------------------
-use autoreconf to invoke the various parts of the GNU Build system:
+Use autoreconf to invoke the various parts of the GNU Build system:
     autoreconf -i
 
 Then build:
@@ -24,7 +24,7 @@ Run all tests:
 
 Usage
 -----
-After starting at a command prompt, use the following commands
+After starting at a command prompt, use the following commands:
 add filename
     Add a file to the system.
 query word
