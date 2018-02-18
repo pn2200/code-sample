@@ -12,6 +12,10 @@ AC_CONFIG_HEADERS([config.h])
 # Checks for programs.
 AC_PROG_CXX
 
+AM_PROG_AR
+LT_INIT
+AC_CONFIG_MACRO_DIRS([m4])
+
 # Require C++11
 AX_CXX_COMPILE_STDCXX_11([noext], [mandatory])
 
